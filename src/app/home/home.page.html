@@ -1,20 +1,147 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="primary">
     <ion-title>
-      Blank
+      <ion-icon name="arrow-back-outline"></ion-icon>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="false">
+    <div id="container" class="ion-text-left">
+    <strong >Artificial Intelligence - The revolution hasn't happened yet</strong>
+    <ion-card  >
+      <div class="cardConn">
+        <div class="imgConn">
+          <div class="Icons">
+            <ion-icon name="book-outline"></ion-icon> <p>3 min read</p>
+          </div>
+        </div>
+        <div class="profile">
+         
+          <div class="left">
+           <div class="profileImg">
+            <img src="../../assets/profile.jpg" alt="">
+           </div>
+            <div class="name">
+              <p class="main">Jhon De</p>
+              <p>Author</p>
+            </div>
+          </div>
+          <div class="right">
+            <ion-icon tappable  (click)="Alert('share')" name="share-social-outline"></ion-icon>
+            <ion-icon tappable  (click)="Alert('bookmark')" name="bookmark-outline"></ion-icon>
+          </div>
+        </div>
+      </div> 
+    </ion-card>
+    <p>
+      Sed lacinia tincidunt nibh, a convallis leo. Aliquam erat volutpat. Integer pellentesque, enim a auctor commodo, justo erat varius ligula, eget eleifend metus purus eu neque. Mauris eget aliquam justo. Donec sit amet sollicitudin diam. Phasellus accumsan, ex ullamcorper porttitor porta, felis magna viverra justo, eu rhoncus augue ipsum eget tellus. Suspendisse potenti. Aliquam et sagittis ex. Pellentesque in nibh vel turpis varius malesuada sit amet hendrerit sem. Nulla convallis metus leo, id tincidunt ligula finibus non. Mauris vulputate suscipit est eu suscipit. Maecenas sed lacus ut ligula aliquam volutpat. Suspendisse a hendrerit velit. Morbi quis laoreet libero, ac cursus metus. In eget luctus arcu, ac semper enim.
+  
+      Nulla quis egestas sapien, eget consectetur felis. Nam auctor augue a aliquet dapibus. Cras ac felis vel sem ultrices tristique. In nec elit lectus. Vivamus nec volutpat dolor. Etiam a neque justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dictum bibendum tristique. Cras id libero quis justo faucibus eleifend vitae a lorem.
+      
+       </p>
+       <img style="border-radius: 5px; margin-top: 1em;" src="../../assets/img2.png" />
+       <p>
+        Sed lacinia tincidunt nibh, a convallis leo. Aliquam erat volutpat. Integer pellentesque, enim a auctor commodo, justo erat varius ligula, eget eleifend metus purus eu neque. Mauris eget aliquam justo. Donec sit amet sollicitudin diam. Phasellus accumsan, ex ullamcorper porttitor porta, felis magna viverra justo, eu rhoncus augue ipsum eget tellus. Suspendisse potenti. Aliquam et sagittis ex. Pellentesque 
+               
+         </p>
+         <img style="border-radius: 5px; margin-top: 1em;" src="../../assets/img2.png" />
+         <div class="dontWantTo">
+           <div class="txt">
+            <div class="left">
+              <p class="hdd">Don't want to miss anything ?</p>
+              <p> Sed lacinia tincidunt nibh, a convallis leo. </p>
+            </div>
+            <div class="right">
+              <img src="../../assets/img3.png" alt="">
+            </div>
+           </div>
+           <div class="btn">
+            <ion-button tappable  (click)="Alert('subscribe')" color="secondary" expand="block">Subscribe</ion-button>
+           </div>
+         </div>
+         <div class="article">
+           <div class="headding">
+            <h4>Articles and Tech Papers</h4>
+            <p tappable  (click)="Alert('view')">View All</p>
+           </div>
+           <div class="scroll" scrollX="true">
+            <ion-card  >
+              <div class="cardConn">
+                <div class="imgConn">
+                  <div class="Icons">
+                    <ion-icon name="book-outline"></ion-icon> <p>3 min read</p>
+                  </div>
+                </div>
+                <div class="profile">
+                 
+                  <div class="left">
+                   <div class="profileImg">
+                    <img src="../../assets/profile.jpg" alt="">
+                   </div>
+                    <div class="name">
+                      <p class="main">Jhon De</p>
+                      <p>Author</p>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <ion-icon tappable  (click)="Alert('share')" name="share-social-outline"></ion-icon>
+                    <ion-icon tappable  (click)="Alert('bookmark')" name="bookmark-outline"></ion-icon>
+                  </div>
+                </div>
+              </div> 
+            </ion-card>
+            <ion-card  >
+              <div class="cardConn">
+                <div class="imgConn">
+                  <div class="Icons">
+                    <ion-icon name="book-outline"></ion-icon> <p>3 min read</p>
+                  </div>
+                </div>
+                <div class="profile">
+                 
+                  <div class="left">
+                   <div class="profileImg">
+                    <img src="../../assets/profile.jpg" alt="">
+                   </div>
+                    <div class="name">
+                      <p class="main">Jhon De</p>
+                      <p>Author</p>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <ion-icon tappable  (click)="Alert('share')" name="share-social-outline"></ion-icon>
+                    <ion-icon tappable  (click)="Alert('bookmark')" name="bookmark-outline"></ion-icon>
+                  </div>
+                </div>
+              </div> 
+            </ion-card>
+            <ion-card  >
+              <div class="cardConn">
+                <div class="imgConn">
+                  <div class="Icons">
+                    <ion-icon name="book-outline"></ion-icon> <p>3 min read</p>
+                  </div>
+                </div>
+                <div class="profile">
+                 
+                  <div class="left">
+                   <div class="profileImg">
+                    <img src="../../assets/profile.jpg" alt="">
+                   </div>
+                    <div class="name">
+                      <p class="main">Jhon De</p>
+                      <p>Author</p>
+                    </div>
+                  </div>
+                  <div class="right">
+                    <ion-icon tappable  (click)="Alert('share')" name="share-social-outline"></ion-icon>
+                    <ion-icon tappable  (click)="Alert('bookmark')" name="bookmark-outline"></ion-icon>
+                  </div>
+                </div>
+              </div> 
+            </ion-card>
+        </div>
+         </div>
+    </div>
 </ion-content>
