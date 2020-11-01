@@ -1,0 +1,7 @@
+{
+  "name": "IonicAssigAngular",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
